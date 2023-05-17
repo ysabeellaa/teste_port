@@ -1,12 +1,7 @@
 import one from '../assets/png/projects/form.png';
 import nine from '../assets/png/projects/transactionLogger.jfif';
-import two from '../assets/png/projects/trybetunes.png';
-import three from '../assets/png/projects/trivia.png';
 import four from '../assets/svg/projects/four.svg';
-import five from '../assets/svg/projects/five.svg';
-import six from '../assets/png/projects/shoppingcart.png';
-import seven from '../assets/png/projects/tryunfo.png';
-import eight from '../assets/png/projects/solarsystem.png';
+
 
 export const projectsData = [
   {
@@ -49,7 +44,7 @@ export const projectsData = [
     tags: ['JS', 'CSS', 'LocalStorage', 'Consumo de API'],
     code: 'https://github.com/ysabeellaa/FinKids',
     demo: 'https://ysabeellaa.github.io/FinKids/',
-    image: three,
+    image: one,
   },
   {
     id: 5,

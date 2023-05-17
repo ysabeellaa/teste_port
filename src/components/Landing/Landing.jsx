@@ -1,16 +1,10 @@
 
 import React, { useContext, useState } from 'react';
 import './Landing.css';
-import {
-  FaLinkedin,
-  FaGithub,
-  FaTwitter,
-} from 'react-icons/fa';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 import { ThemeContext } from '../../context/ThemeContext';
 
 import { headerData } from '../../data/headerData';
-import { socialsData } from '../../data/socialsData';
 
 export default function Landing() {
   const { theme } = useContext(ThemeContext);

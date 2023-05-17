@@ -1,6 +1,4 @@
 import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
-import { HiArrowRight } from 'react-icons/hi';
 import { makeStyles } from '@mui/styles';
 import { projectsData } from '../../data/projectsData';
 import SingleProject from '../SingleProject/SingleProject';

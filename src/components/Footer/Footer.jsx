@@ -1,15 +1,10 @@
 import React, { useContext } from 'react';
 import './Footer.css';
 import { ThemeContext } from '../../context/ThemeContext';
-import { headerData } from '../../data/headerData';
+
 
 export default function Footer() {
-  const shortname = (name) => {
-    if (name.length > 10) {
-      return name.split(' ')[0];
-    }
-    return name;
-  };
+  
   const { theme } = useContext(ThemeContext);
 
   return (
