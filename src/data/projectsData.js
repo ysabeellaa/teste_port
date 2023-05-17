@@ -1,6 +1,6 @@
 import one from '../assets/png/projects/form.png';
 import nine from '../assets/png/projects/transactionLogger.jfif';
-import four from '../assets/svg/projects/four.svg';
+
 
 
 export const projectsData = [
@@ -40,7 +40,7 @@ export const projectsData = [
     id: 4,
     projectName: 'FinKids',
     projectDesc: 'Foi desenvolvida em colaboração uma aplicação voltada para a venda de planos de estudo de programação destinados a crianças'
-    + 'Trivia utilizando React e Redux.',
+    + 'Validação de formulário, consumo de API de CEP.',
     tags: ['JS', 'CSS', 'LocalStorage', 'Consumo de API'],
     code: 'https://github.com/ysabeellaa/FinKids',
     demo: 'https://ysabeellaa.github.io/FinKids/',
@@ -53,7 +53,7 @@ export const projectsData = [
     tags: ['JS', 'CSS'],
     code: 'https://github.com/ysabeellaa/calculator_2_themes',
     demo: 'https://ysabeellaa.github.io/calculator_2_themes/',
-    image: four,
+    image: nine,
   },
   {
     id: 6,
@@ -62,7 +62,7 @@ export const projectsData = [
     tags: ['React', 'TS', 'CSS'],
     code: 'https://github.com/ysabeellaa/form_travel_react-ts',
     demo: 'https://ysabeellaa.github.io/form_travel_react-ts/',
-    image: four,
+    image: nine,
   },
  
 ]; export default projectsData;
