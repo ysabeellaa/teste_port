@@ -41,6 +41,7 @@ export const projectsData = [
     demo: 'https://repositorio-transaction-logger.vercel.app/',
     image: three,
   },
+  
   {
     id: 4,
     projectName: 'FinKids',
@@ -86,6 +87,15 @@ export const projectsData = [
     tags: ['JS', 'CSS', 'HTML'],
     code: 'https://github.com/ysabeellaa/jokenpo_par-impar',
     demo: 'https://ysabeellaa.github.io/jokenpo_par-impar/',
+    image: eight,
+  },
+  {
+    id: 9,
+    projectName: 'Hackathon Rio Empreender',
+    projectDesc: 'Projeto do Hackathon desenvolvido com outros devs',
+    tags: ['React', 'SCSS', 'TS'],
+    code: 'https://github.com/ysabeellaa/hackathon-rio',
+    demo: 'https://hackathon-rio.vercel.app/',
     image: eight,
   },
  

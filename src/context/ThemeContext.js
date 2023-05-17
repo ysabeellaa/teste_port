@@ -7,7 +7,7 @@ export const ThemeContext = createContext();
 
 function ThemeContextProvider({ children }) {
   const [themeColor, setThemeColor] = useState(localStorage
-    .getItem('themeColor') || 'green');
+    .getItem('themeColor') || 'orange');
   const [themeType, setThemeType] = useState(localStorage
     .getItem('themeType') || 'lightTheme');
   const [theme, setTheme] = useState(themeData[themeColor].lightTheme);
