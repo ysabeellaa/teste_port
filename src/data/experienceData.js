@@ -35,4 +35,11 @@ export const experienceData = [
     startYear: '2023',
     endYear: 'Presente',
   },
+  {
+    id: 6,
+    company: 'Rio Empreender Criativo',
+    jobtitle: 'Hackathon com outros estudantes do Desenvolve - GB',
+    startYear: '2023',
+    endYear: '2023',
+  },
 ]; export default experienceData;

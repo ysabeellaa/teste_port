@@ -1,6 +1,11 @@
-import one from '../assets/png/projects/form.png';
-import nine from '../assets/png/projects/transactionLogger.jfif';
-
+import one from '../assets/png/projects/casaPlanta.png';
+import three from '../assets/png/projects/transactionLogger.jfif';
+import two from '../assets/png/projects/form.png';
+import four from '../assets/png/projects/finKids.png';
+import five from '../assets/png/projects/travel.png';
+import six from '../assets/png/projects/calculator.png';
+import seven from '../assets/png/projects/robotron.png';
+import eight from '../assets/png/projects/jokenpo.png';
 
 
 export const projectsData = [
@@ -13,7 +18,7 @@ export const projectsData = [
     tags: ['React', 'TypeScript', 'SCSS', 'Context API', 'Hooks'],
     code: 'https://github.com/ysabeellaa/CasaPlanta',
     demo: 'https://casa-planta.vercel.app/',
-    image: nine,
+    image: one,
     
   },
   {
@@ -24,7 +29,7 @@ export const projectsData = [
     tags: ['JS', 'CSS', 'LocalStorage', 'Responsividade',],
     code: 'https://github.com/ysabeellaa/update_advanced_form',
     demo: 'https://repositorio-transaction-logger-qwxb.vercel.app/',
-    image: one,
+    image: two,
   },
   {
     id: 3,
@@ -34,7 +39,7 @@ export const projectsData = [
     tags: ['React', 'SCSS', 'TypeScript', 'React Hooks', 'Mock'],
     code: 'https://github.com/ysabeellaa/repositorio_transaction_logger',
     demo: 'https://repositorio-transaction-logger.vercel.app/',
-    image: nine,
+    image: three,
   },
   {
     id: 4,
@@ -44,25 +49,44 @@ export const projectsData = [
     tags: ['JS', 'CSS', 'LocalStorage', 'Consumo de API'],
     code: 'https://github.com/ysabeellaa/FinKids',
     demo: 'https://ysabeellaa.github.io/FinKids/',
-    image: one,
+    image: four,
   },
   {
     id: 5,
     projectName: 'Travel Form',
     projectDesc: 'Planeje o destino da sua viagem, descrição e acompanhantes!',
     tags: ['JS', 'CSS'],
-    code: 'https://github.com/ysabeellaa/calculator_2_themes',
-    demo: 'https://ysabeellaa.github.io/calculator_2_themes/',
-    image: nine,
+    code: 'https://github.com/ysabeellaa/form_travel_react-ts',
+    demo: 'https://form-travel-react-ts.vercel.app/',
+    image: five,
   },
   {
     id: 6,
     projectName: '2 Themes Calculator',
     projectDesc: 'Faça contas complexas! Não se preocupe se gosta do tema claro ou escuro, aqui tem ambos!',
     tags: ['React', 'TS', 'CSS'],
-    code: 'https://github.com/ysabeellaa/form_travel_react-ts',
-    demo: 'https://ysabeellaa.github.io/form_travel_react-ts/',
-    image: nine,
+    code: 'https://github.com/ysabeellaa/calculator_2_themes',
+    demo: 'https://ysabeellaa.github.io/calculator_2_themes/',
+    image: six,
+  },
+  {
+    id: 7,
+    projectName: 'Robotron',
+    projectDesc: 'Monte seu robô personalizado da sua maneira!',
+    tags: ['JS', 'DOM', 'CSS'],
+    code: 'https://github.com/ysabeellaa/DOM_js-robotron',
+    demo: 'https://dom-js-robotron.vercel.app/',
+    image: seven,
+  },
+ 
+  {
+    id: 8,
+    projectName: 'Jokenpô',
+    projectDesc: 'Desafio você a jogar Jokenpô e a vencer o pc!',
+    tags: ['JS', 'CSS', 'HTML'],
+    code: 'https://github.com/ysabeellaa/jokenpo_par-impar',
+    demo: 'https://ysabeellaa.github.io/jokenpo_par-impar/',
+    image: eight,
   },
  
 ]; export default projectsData;
