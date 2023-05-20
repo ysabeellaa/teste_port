@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  min-height: 100vh;
+  min-height: 90vh;
   position: relative;
 }
 
@@ -108,6 +108,9 @@
 
 @media screen and ( max-width : 992px ) {
 
+  .contacts{
+    min-height: 85vh;
+  }
   .contacts--img {
     display: none;
   }

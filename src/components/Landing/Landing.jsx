@@ -65,7 +65,7 @@ export default function Landing() {
 
   return (
     <div id="landing" className="landing">
-      <div className="landing-container">
+      {/* <div className="landing-container">
         <div
           className="landing-container-left"
           style={ { backgroundColor: theme.primary } }
@@ -76,7 +76,7 @@ export default function Landing() {
           >
             
           </div>
-        </div>
+        </div> */}
         <div
           className="landing-container-right"
           style={ { backgroundColor: theme.secondary } }
@@ -130,6 +130,6 @@ export default function Landing() {
           </div>
         </div>
       </div>
-    </div>
+  
   );
 }
