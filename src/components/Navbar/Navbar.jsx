@@ -14,46 +14,29 @@ import { FaUser, FaFolderOpen } from 'react-icons/fa';
 import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
-import { themeData } from '../../data/themeData';
 import { ThemeContext } from '../../context/ThemeContext';
-
+import Toggle from '../Toggle';
 
 export default function Navbar() {
   const {
-    themeColor, selectThemeColor, theme, selectThemeType,
+    theme, 
   } = useContext(ThemeContext);
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
- 
+
 
   return (
     <div id="navbar" className="navbar">
       <div className="navbar-container">
-        
+
         <div
           className="button-theme-option"
-          style={ { color: theme.tertiary } }
+          style={{ color: theme.tertiary }}
         >
-          <form
-            className="theme-color-form"
-          >
-            <label
-              className="theme-color-checkbox-title"
-              htmlFor="checkbox-theme"
-            >
-              Moon
-              <input
-                id="checkbox-theme"
-                type="checkbox"
-                checked={ theme.type === 'dark' }
-                onChange={ selectThemeType }
-              />
-            </label>
-
-          </form>
+          <Toggle></Toggle>
         </div>
         <IconButton
-          onClick={ () => setIsDrawerOpen(true) }
+          onClick={() => setIsDrawerOpen(true)}
           size="large"
           edge="start"
           color="inherit"
@@ -67,15 +50,15 @@ export default function Navbar() {
 
         <Drawer
           anchor="right"
-          open={ isDrawerOpen }
-          onClose={ () => setIsDrawerOpen(false) }
+          open={isDrawerOpen}
+          onClose={() => setIsDrawerOpen(false)}
           className="drawer"
         >
-          <Box p={ 2 } width="250px" role="presentation" textAlign="right">
+          <Box p={2} width="250px" role="presentation" textAlign="right">
             <div className="div-closebtn">
               <CloseIcon
-                onClick={ () => setIsDrawerOpen(false) }
-                style={ { color: theme.primary } }
+                onClick={() => setIsDrawerOpen(false)}
+                style={{ color: theme.primary }}
                 role="button"
                 tabIndex="0"
                 aria-label="Close"
@@ -90,14 +73,14 @@ export default function Navbar() {
               to="/"
               smooth
               spy="true"
-              duration={ 2000 }
+              duration={2000}
               className="navlink-item"
-              onClick={ () => setIsDrawerOpen(false) }
+              onClick={() => setIsDrawerOpen(false)}
             >
               <button
                 type="button"
                 className="button-item-drawer"
-                style={ { color: theme.primary } }
+                style={{ color: theme.primary }}
               >
                 <IoHomeSharp />
                 <span>
@@ -112,15 +95,15 @@ export default function Navbar() {
               to="/#about"
               smooth
               spy="true"
-              duration={ 2000 }
-              style={ { color: theme.primary } }
+              duration={2000}
+              style={{ color: theme.primary }}
               className="navlink-item"
-              onClick={ () => setIsDrawerOpen(false) }
+              onClick={() => setIsDrawerOpen(false)}
             >
               <button
                 type="button"
                 className="button-item-drawer"
-                style={ { color: theme.primary } }
+                style={{ color: theme.primary }}
               >
                 <FaUser />
                 <span>
@@ -135,15 +118,15 @@ export default function Navbar() {
               to="/#skills"
               smooth
               spy="true"
-              duration={ 2000 }
-              style={ { color: theme.primary } }
+              duration={2000}
+              style={{ color: theme.primary }}
               className="navlink-item"
-              onClick={ () => setIsDrawerOpen(false) }
+              onClick={() => setIsDrawerOpen(false)}
             >
               <button
                 type="button"
                 className="button-item-drawer"
-                style={ { color: theme.primary } }
+                style={{ color: theme.primary }}
               >
                 <BsFillGearFill />
                 <span>
@@ -158,15 +141,15 @@ export default function Navbar() {
               to="/#projects"
               smooth
               spy="true"
-              duration={ 2000 }
-              style={ { color: theme.primary } }
+              duration={2000}
+              style={{ color: theme.primary }}
               className="navlink-item"
-              onClick={ () => setIsDrawerOpen(false) }
+              onClick={() => setIsDrawerOpen(false)}
             >
               <button
                 type="button"
                 className="button-item-drawer"
-                style={ { color: theme.primary } }
+                style={{ color: theme.primary }}
               >
                 <FaFolderOpen />
                 <span>
@@ -181,15 +164,15 @@ export default function Navbar() {
               to="/#resume"
               smooth
               spy="true"
-              duration={ 2000 }
-              style={ { color: theme.primary } }
+              duration={2000}
+              style={{ color: theme.primary }}
               className="navlink-item"
-              onClick={ () => setIsDrawerOpen(false) }
+              onClick={() => setIsDrawerOpen(false)}
             >
               <button
                 type="button"
                 className="button-item-drawer"
-                style={ { color: theme.primary } }
+                style={{ color: theme.primary }}
               >
                 <HiDocumentText />
                 <span>
@@ -204,15 +187,15 @@ export default function Navbar() {
               to="/#contacts"
               smooth
               spy="true"
-              duration={ 2000 }
-              style={ { color: theme.primary } }
+              duration={2000}
+              style={{ color: theme.primary }}
               className="navlink-item"
-              onClick={ () => setIsDrawerOpen(false) }
+              onClick={() => setIsDrawerOpen(false)}
             >
               <button
                 type="button"
                 className="button-item-drawer"
-                style={ { color: theme.primary } }
+                style={{ color: theme.primary }}
               >
                 <MdPhone />
                 <span>

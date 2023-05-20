@@ -1,0 +1,89 @@
+.toggle {
+    position: relative;
+    width: 60px;
+    height: 30px;
+  }
+  
+  .checkbox {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .label:before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 22px;
+    height: 22px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: transform 0.2s;
+  }
+  
+  .checkbox:checked + .label{
+    background-color: #3a3a3a;
+  }
+  
+  .checkbox:checked + .label:before {
+    transform: translateX(30px);
+  }
+  
+  .sun,
+  .moon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 14px;
+    height: 100%;
+    transition: opacity 0.2s;
+  }
+  .moon{
+    color:#3a3a3a;
+  }
+  
+  .sun {
+    opacity: 1;
+  }
+  
+  .moon {
+    opacity: 1;
+  }
+  
+  .checkbox:checked + .label .sun {
+    opacity: 1;
+  }
+  
+  .checkbox:checked + .label .moon {
+    opacity: 1;
+  }
+  
+  .ball {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 22px;
+    height: 22px;
+    background-color: #F56539;
+    border-radius: 50%;
+    transition: transform 0.2s;
+  }
+  
+  .checkbox:checked + .label .ball {
+    transform: translateX(30px);
+  }
+  
