@@ -11,9 +11,16 @@
   font-family: var(--primaryFont);
   font-size: 18px;
   font-weight: 500;
+  /* width: 80%; */
 
 }
 
 .footer p span {
   font-size: 24px;
+}
+
+@media screen and ( max-width : 800px ) {
+  .footer p{
+    width: 80%;
+  }
 }
