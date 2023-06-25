@@ -6,7 +6,8 @@ import five from '../assets/png/projects/travel.png';
 import six from '../assets/png/projects/calculator.png';
 import seven from '../assets/png/projects/robotron.png';
 import eight from '../assets/png/projects/jokenpo.png';
-
+import nine from '../assets/png/projects/hackaRio.png';
+import ten from '../assets/png/projects/hackaIfood.png';
 
 export const projectsData = [
   {
@@ -92,11 +93,20 @@ export const projectsData = [
   {
     id: 9,
     projectName: 'Hackathon Rio Empreender',
-    projectDesc: 'Projeto do Hackathon desenvolvido com outros devs',
+    projectDesc: 'Projeto do Hackathon desenvolvido com outros devs do Desenvolve - Grupo Boticário',
     tags: ['React', 'SCSS', 'TS'],
     code: 'https://github.com/ysabeellaa/hackathon-rio',
     demo: 'https://hackathon-rio.vercel.app/',
-    image: eight,
+    image: nine,
+  },
+  {
+    id: 10,
+    projectName: 'Hackathon Potência Tech - Paerceria Ifood',
+    projectDesc: 'Projeto do Hackathon desenvolvido com outros devs',
+    tags: ['React', 'SCSS', 'TS'],
+    code: 'https://github.com/ysabeellaa/PotenciaHack_Frontend',
+    demo: 'https://potencia-hack-frontend.vercel.app/',
+    image: ten,
   },
  
 ]; export default projectsData;

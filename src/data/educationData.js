@@ -24,7 +24,7 @@ export const educationData = [
   {
     id: 4,
     institution: 'Equipe de Robótica FURGBOT',
-    course: 'Programadora',
+    course: 'Programadora de robôs',
     startYear: '2018',
     endYear: '2019',
   },
